@@ -9,7 +9,7 @@ public class DockerController {
 
     @GetMapping(value = "/api/docker")
     public String getHelloWorld(){
-        return "bye bye jenkins";
+        return "Welcome jenkins";
     }
 
 }
